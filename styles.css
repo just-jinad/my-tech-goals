@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(250, 220, 225);
+}
+
+header, main, footer {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+header {
+    text-align: center;
+}
+
+img[data-testid="slackProfilePicture"] {
+    border-radius: 50%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+button{
+    background-color: white;
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+}
+
+button:hover{
+    background-color: darksalmon;
+    color: white;
+}
+
+a:hover {
+    color: white;
+    font-weight: 900;
+}
